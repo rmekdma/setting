@@ -5,10 +5,8 @@
 
     "keybindings" : 
     [
-        {"command" : {"action" : "copy", "singleLine" : false }, "keys" : "ctrl+c"},
         {"command" : "paste", "keys" : "ctrl+v"},
         {"command" : "find", "keys" : "ctrl+shift+f"},
-        {"command" : {"action" : "splitPane", "split" : "auto", "splitMode" : "duplicate"}, "keys" : "alt+shift+d"},
         {"command" : "newTab", "keys" : "ctrl+t"},
         {"command" : "closeTab", "keys" : "ctrl+w"},
         {"command" : "nextTab", "keys" : "ctrl+pagedown"},
