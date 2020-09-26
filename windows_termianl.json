@@ -5,10 +5,10 @@
 
     "keybindings" : 
     [
-        {"command" : "paste", "keys" : "ctrl+v"},
+        {"command" : "paste", "keys" : "ctrl+shift+v"},
         {"command" : "find", "keys" : "ctrl+shift+f"},
-        {"command" : "newTab", "keys" : "ctrl+t"},
-        {"command" : "closeTab", "keys" : "ctrl+w"},
+        {"command" : "newTab", "keys" : "ctrl+shift+t"},
+        {"command" : "closeTab", "keys" : "ctrl+shift+w"},
         {"command" : "nextTab", "keys" : "ctrl+pagedown"},
         {"command" : "prevTab", "keys" : "ctrl+pageup"},
         {"command" : {"action" : "switchToTab", "index" : 0 }, "keys" : "ctrl+1"},
