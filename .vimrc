@@ -26,3 +26,6 @@ endif
 colorscheme monokai
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 autocmd vimenter * hi NonText guibg=NONE ctermbg=NONE " transparent bg
+
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
