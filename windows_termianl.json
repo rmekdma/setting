@@ -33,5 +33,12 @@
             "fontFace": "Hack",
             "scrollbarState": "hidden"
         }
-    }
+    },
+    "list" : 
+    [
+        {
+            "name" : "Ubuntu",
+            "startingDirectory": "//wsl$/Ubuntu/home/<username>"
+        }
+    ]
 }
