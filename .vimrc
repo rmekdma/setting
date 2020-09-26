@@ -10,6 +10,7 @@ set showmatch " 일치하는 괄호 하이라이팅
 set smartcase " 검색시 대소문자 구별
 set smarttab
 set smartindent
+set nowrap
 
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
