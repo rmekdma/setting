@@ -1,6 +1,7 @@
 set hlsearch " 검색어 하이라이팅
 set nu " 줄번호
 set autoindent " 자동 들여쓰기
+set expandtab
 set ts=4 "tag select
 set sts=4 "st select
 set sw=1 " 스크롤바 너비
