@@ -12,6 +12,7 @@ set smartcase " 검색시 대소문자 구별
 set smarttab
 set smartindent
 set nowrap
+set mouse=a
 
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
