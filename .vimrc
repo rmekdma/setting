@@ -13,6 +13,7 @@ set smarttab
 set smartindent
 set nowrap
 set mouse=a
+set backspace=indent,eol,start
 
 " 마지막으로 수정된 곳에 커서를 위치함
 au BufReadPost *
