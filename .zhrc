@@ -1,13 +1,28 @@
 setopt    appendhistory
-setopt    sharehistory
+#setopt    sharehistory
 setopt    incappendhistory
 
 alias tmuxs='tmux attach || tmux new-session'
-alias ls='ls --group-directories-first --color=auto'
-alias ll='ls -al --group-directories-first --color=auto'
-alias subl="/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe"
+alias ls='gls --group-directories-first --color=auto'
+alias ll='gls -al --group-directories-first --color=auto'
+alias ssh='ssh -o ServerAliveInterval=180 -o ServerAliveCountMax=2'
 
 export LC_ALL="ko_KR.UTF-8"
 export LANG="ko_KR.UTF-8"
 
 unset TMOUT
+
+source ~/.zplug/init.zsh
+zplug "b4b4r07/enhancd", use:init.sh
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load
+
+ENHANCD_DISABLE_DOT=1
+ENHANCD_DISABLE_HOME=1
