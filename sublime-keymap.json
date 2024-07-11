@@ -1,4 +1,4 @@
 {
-    { "keys": ["super+i"], "command": "toggle_setting", "args": {"setting": "translate_tabs_to_spaces"} },
-    { "keys": ["super+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} }
+    { "keys": ["ctrl+i"], "command": "toggle_setting", "args": {"setting": "translate_tabs_to_spaces"} },
+    { "keys": ["ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} }
 }
