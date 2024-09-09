@@ -21,7 +21,7 @@ settings.theme = `
   color: #2c363c;
 }
 .sk_theme .omnibar_highlight {
-  color: #e4dfdd;
+  color: #ff0000;
 }
 .sk_theme #sk_omnibarSearchResult {
   background: #cdc4c1;
