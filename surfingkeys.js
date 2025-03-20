@@ -1,7 +1,6 @@
 settings.focusFirstCandidate = true;
 
-api.map('f','af');
-api.map('F','C');
+api.map('F','af');
 
 // set theme
 settings.theme = `
