@@ -1,5 +1,8 @@
 settings.focusFirstCandidate = true;
 
+api.map('f','af');
+api.map('F','C');
+
 // set theme
 settings.theme = `
 .sk_theme {
