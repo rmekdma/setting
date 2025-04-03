@@ -1,4 +1,5 @@
 settings.focusFirstCandidate = true;
+settings.focusAfterClosed = "last";
 
 api.map('F','af');
 
