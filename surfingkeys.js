@@ -1,5 +1,5 @@
 settings.focusFirstCandidate = true;
-settings.focusAfterClosed = "last";
+settings.focusAfterClosed = "left";
 
 api.map('F','af');
 
