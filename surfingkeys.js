@@ -1,7 +1,10 @@
 settings.focusFirstCandidate = true;
 settings.focusAfterClosed = "left";
+api.Hints.setCharacters('asdfgwertzxcvb');
 
 api.map('F','af');
+api.map('K', 'U');
+api.map('J', 'P');
 
 // set theme
 settings.theme = `
